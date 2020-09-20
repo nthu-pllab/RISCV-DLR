@@ -1,0 +1,8 @@
+# ignore anything inside examples, add by force
+example/
+
+# build and install
+build
+install
+build-riscv
+install-riscv

@@ -1,0 +1,24 @@
+Before actually running this example, the depent projects need to be built or installed first.
+
+- riscv-gnu-toolchain (with rvp support)
+  - riscv-isa-sim (with rvp support)
+- llvm (with rvp support)
+- riscv-dlr (this repo)
+
+Then modify these place:
+
+In Makefile,
+```
+RISCV_INSTALL     := /path/to/riscv-gnu-toolchain/install #[TODO]
+DLR_INSTALL       := /path/to/DLR-normal-build/install #[TODO]
+DLR_RISCV_INSTALL := /path/to/DLR-riscv-build/install #[TODO]
+LLVM_INSTALL      := /path/to/llvm-rvp/build #[TODO]
+```
+
+In host.cc,
+```
+// #[TODO]
+#define DLR_DIR "/path/to/DLR/repo"
+```
+
+

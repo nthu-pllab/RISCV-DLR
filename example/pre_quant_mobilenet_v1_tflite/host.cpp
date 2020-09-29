@@ -58,7 +58,6 @@ bool read_imgs(string label, uint8_t *input) {
 }
 
 int main(int argc, char *argv[]) {
-  float a = max(1.0, 2.0);
   if (argc != 4) {
     printf("Please enter file\n");
     return -1;

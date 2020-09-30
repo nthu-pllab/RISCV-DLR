@@ -31,7 +31,7 @@ EXECUTABLE  := $(MODEL_NAME)
 EXE_DUMP    := $(MODEL_NAME).dump
 
 BUILD_MODULE_PY := build_module.py
-HOST_CODE       := host.cc
+HOST_CODE       := host.cpp
 KERNEL_INC      := kernel.inc
 
 LOGS_DIR         := logs

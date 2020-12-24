@@ -1,4 +1,4 @@
-Before actually running this example, the depent projects need to be built or installed first.
+Before actually running this example, the dependent projects need to be built or installed first.
 
 - riscv-gnu-toolchain (with rvp support)
   - riscv-isa-sim (with rvp support)

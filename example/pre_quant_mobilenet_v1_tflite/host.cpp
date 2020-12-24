@@ -23,7 +23,7 @@ double test_success_count = 0.0;
 uint8_t input_Placeholder[img_size];
 uint8_t *outputs;
 
-ifstream label_f(DLR_DIR "/dataset/imagenet_quant_224_tflite/val.txt");
+ifstream label_f(DLR_DIR "/dataset/val.txt");
 
 string get_file_name(int n, string prefix) {
   int sequence[8];
